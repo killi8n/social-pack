@@ -1,0 +1,25 @@
+{
+  "name": "social-pack",
+  "version": "1.1.0",
+  "main": "dist/index.js",
+  "author": {
+    "name": "killi8n",
+    "email": "killi8n.dev@gmail.com",
+    "url": "https://github.com/killi8n"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "google-auth-library": "^6.0.6",
+    "googleapis": "^59.0.0",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/node": "^14.6.4"
+  }
+}
